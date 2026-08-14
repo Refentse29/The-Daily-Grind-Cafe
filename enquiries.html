@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Enquire | The Daily Grind Cafe</title>
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.jpg" alt="The Daily Grind Cafe Logo" width="120">
+            <h1>The Daily Grind Cafe</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="enquiries.html">Enquire</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h2>Product Enquiry</h2>
+                <p>Have a question about our coffeee roasts or bulk orders? Send us a message below.</p>
+                <form action="#" method="post">
+                <p><label for="name"> Full Name:</label><br>
+                    <input type="text" id="name" name="name" required></p>
+
+                <p><label for="email">Email Adress:</label><br>
+                    <input type="email" id="email" name="email" required></p>
+
+                <p><label for="product">Select Product of Interest:</label><br>
+                    <select id="product" name="product" required>
+                        <option value="">-- Choose a product --</option>
+                        <option value="dark-roast">African Dark Roast</option>
+                        <option value=medium-roast">Balanced Medium Roast</option>
+                        <option value="light-roast">Floral Light Roast</option>
+                        <option value="other">General Query</option>
+                    </select></p>
+
+                <p><label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="5" required></textarea></p>
+
+                <p><button type="submit">Submit Enquiry</button></p
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 The Daily Grind Cafe. All rights reserved.</p>
+        </footer>
+    </body>
