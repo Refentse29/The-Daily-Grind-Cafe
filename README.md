@@ -21,7 +21,7 @@ The Daily Grind Cafe website provides users with information about our artisanal
 - **Version Control:** Git & Github.
 
 ## How to Run
-1. Clone this repository: 'git clone https://github.com/USERNAME/REPO_NAME.git'
+1. Clone this repository: 'git clone https://github.com/Refentse29/The-Daily-Grind-Cafe.git'
 2. Open the folder in your preferred code editor.
 3. Open 'index.html' in a web browser or use the "Live Server" extension in VS code.
 
