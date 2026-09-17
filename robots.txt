@@ -1,0 +1,6 @@
+# Allow all search engines to crawl the entire website
+User-agent: *
+Allow: /
+
+# Link to your XML sitemap
+Sitemap: https://www.thedailygrindcafe.co.za/sitemap.xml
