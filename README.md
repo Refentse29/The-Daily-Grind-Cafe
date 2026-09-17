@@ -2,38 +2,36 @@ ST10519748
 Refentse Clementine Matlala
 Group 3
 
-# The-Daily-Grind-Cafe
-A multi-page responsive website for a local coffee shop, developed as part of a Web Development academic module. The project focuses on structured HTML5 content and semantic web design.
+# The Daily Grind Cafe — Web Development Project (Part 2)
 
-# Project Overview
-The Daily Grind Cafe website provides users with information about our artisanal coffee roasts, our mission, and an easy way to contact us or make specific product enquiries.
+Welcome to the official repository for **The Daily Grind Cafe** website. This project forms part of my tertiary studies in Web Development (WEDE5020). Building on the semantic HTML structure established in Part 1, Part 2 focuses on creating an external CSS design system, implementing responsive media queries, and establishing accessible UI interactions.
 
-## Features
-- **Home:** Hero section and navigation.
-- **About Us:** Company mission and background.
-- **Services:** A structured catalog of coffee roasts.
-- **Enquiries:** A functional HTML form for user feedback/orders.
-- **Contact Us:** Business location, contact details, and operating hours.
+## ☕ Project Overview & Scope
+The Daily Grind Cafe website is designed to reflect an artisanal coffee shop brand. The multi-page platform provides visitors with clear access to product information, coffee origins, operating hours, and an online enquiry system.
 
-## Technologies Used
-- **Languages:** HTML5
-- **Development Tool:** Visual Studio Code
-- **Version Control:** Git & Github.
+### Key Pages:
+1. **Home (`index.html`):** Brand landing page featuring hero media and value statements.
+2. **About Us (`about.html`):** Background story, roasting philosophy, and ethical sourcing values.
+3. **Products & Services (`services.html`):** Tabular menu display and product cards for single-origin roasts.
+4. **Enquiries (`enquiries.html`):** Accessible form layout for customer orders and custom roast requests.
+5. **Contact Us (`contact.html`):** Trading hours, interactive map area, and direct contact channels.
 
-## How to Run
-1. Clone this repository: 'git clone https://github.com/Refentse29/The-Daily-Grind-Cafe.git'
-2. Open the folder in your preferred code editor.
-3. Open 'index.html' in a web browser or use the "Live Server" extension in VS code.
+---
 
-## References
-This project utilized the following resources for structure, best practices, and assets:
+## 🎨 Design & Technical Features (Part 2 Highlights)
 
-- **MDN Web Docs.** (2026). *HTML: HyperText Markup Language*. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML (Accessed: 5 August 2026).
-- **W3Schools.** (2026). *HTML Tutorial*. Available at: https://www.w3schools.com/html/ (Accessed: 1 August 2026).
-- **Unsplash.** (2026). *Coffee Imagery*. [Stock Photos]. Available at: https://unsplash.com/ (Accessed: 7 August 2026).
+- **Centralized CSS Architecture:** All layout and visual properties are controlled via an external stylesheet (`css_assets/style.css`).
+- **Flexible Layouts:** Content structure relies on CSS Flexbox for navigation alignment and CSS Grid for product showcase modules.
+- **Fluid Typography:** Spacing and fonts use relative units (`rem`, `em`, `%`) to support dynamic scaling across various browser dimensions.
+- **Responsive Breakpoints:** Media queries adapt desktop multi-column structures down to clean single-column mobile arrangements.
+- **Interactive UI Feedback:** Links, menu options, form fields, and buttons incorporate distinct `:hover`, `:focus`, and `:active` pseudo-classes.
+- **Responsive Media:** Core hero elements utilize modern `<picture>` tags to deliver scalable images optimized for mobile and desktop screens.
 
-## License
-Distributed under the MIT License.
+## 🛠️ How to to Run & Inspect This Project
+
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/Refentse29/The-Daily-Grind-Cafe.git](https://github.com/Refentse29/The-Daily-Grind-Cafe.git)
   
 
 
