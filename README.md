@@ -32,6 +32,14 @@ The Daily Grind Cafe website is designed to reflect an artisanal coffee shop bra
 1. **Clone the Repository:**
    ```bash
    git clone [https://github.com/Refentse29/The-Daily-Grind-Cafe.git](https://github.com/Refentse29/The-Daily-Grind-Cafe.git)
+
+## References
+Duckett, J. 2014. HTML and CSS: Design and Build Websites. Indianapolis: John Wiley & Sons.
+
+MDN Web Docs. 2026. Responsive design - Learn web development. Available at: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design [Accessed 18 September 2026].
+
+W3C. 2026. CSS Cascading and Inheritance Level 4. W3C Recommendation. Available at: https://www.w3.org/TR/css-cascade-4/ [Accessed 18 September 2026].
+   
   
 
 
