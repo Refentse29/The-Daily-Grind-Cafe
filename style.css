@@ -1,0 +1,204 @@
+/* Primary Typography Rules */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333333;
+}
+
+h1, h2, h3, .brand-title {
+  font-family: 'Georgia', 'Playfair Display', serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+/* ==========================================
+   1. BASE RESET & DEFAULT STYLES
+   ========================================== */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #3e2723;
+    --accent-color: #d7ccc8;
+    --bg-color: #f9f6f0;
+    --card-bg: #ffffff;
+    --text-color: #2c2c2c;
+    --font-heading: 'Georgia', serif;
+    --font-body: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    font-family: var(--font-body);
+    line-height: 1.7;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+/* ==========================================
+   2. TYPOGRAPHY & INTERACTIVE ELEMENTS
+   ========================================== */
+h1, h2, h3 {
+    font-family: var(--font-heading);
+    color: var(--primary-color);
+    margin-bottom: 0.75rem;
+    letter-spacing: 0.5px;
+}
+
+h1 { font-size: 2.2rem; }
+h2 { font-size: 1.6rem; }
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Pseudo-classes for interactive state (Hover & Focus) */
+a:hover, a:focus {
+    color: #6d4c41;
+    text-decoration: underline;
+}
+
+/* ==========================================
+   3. DESKTOP LAYOUT STRUCTURE (Flexbox & Grid)
+   ========================================== */
+header {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+header h1 {
+    color: #ffffff;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    list-style: none;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0.5rem 0.8rem;
+    border-radius: 4px;
+}
+
+nav ul li a:hover, nav ul li a:active {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+main {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
+/* Multi-column Grid for products/services */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+article {
+    background-color: var(--card-bg);
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.25rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+article:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Form & Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    background: var(--card-bg);
+}
+
+th, td {
+    padding: 0.75rem 1rem;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: #ffffff;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: var(--primary-color);
+    outline: none;
+    box-shadow: 0 0 5px rgba(62, 39, 35, 0.3);
+}
+
+button {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, button:active {
+    background-color: #2c1b17;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    margin-top: 3rem;
+}
+
+/* ==========================================
+   4. RESPONSIVE MEDIA QUERIES & BREAKPOINTS
+   ========================================== */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 1.75rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    main {
+        padding: 0 1rem;
+    }
+}
+
