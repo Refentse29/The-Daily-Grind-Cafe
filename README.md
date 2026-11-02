@@ -40,3 +40,12 @@ the-daily-grind-cafe/
 ├── sitemap.xml
 ├── robots.txt
 └── README.md
+
+
+### References
+* Duckett, J., 2011. *HTML and CSS: Design and Build Websites*. Indianapolis: John Wiley & Sons.
+* Duckett, J., 2014. *JavaScript and JQuery: Interactive Front-End Web Development*. Indianapolis: John Wiley & Sons.
+* MDN Web Docs, 2026. *Client-side form validation*. Available at: <https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_forms_through_JavaScript> [Accessed 2 November 2026].
+* MDN Web Docs, 2026. *How to build a responsive menu grid*. Available at: <https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox> [Accessed 2 November 2026].
+* W3Schools, 2026. *How To Create a Lightbox Modal*. Available at: <https://www.w3schools.com/howto/howto_js_lightbox.asp> [Accessed 2 November 2026].
+
